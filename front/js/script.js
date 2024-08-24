@@ -5,7 +5,7 @@ function navigationFlipper()
 
     hamburger.addEventListener('click', () => 
         {
-            navigationHeader.classList.toggle('hidden');
+            navigationHeader.classList.toggle('invisible');
         });
 };
 
