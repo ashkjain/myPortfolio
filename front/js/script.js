@@ -1,12 +1,12 @@
-function navigationFlipper()
+function hamburgerMenu()
 {
-    const hamburger = document.getElementById('hamburger');
-    const navigationHeader = document.getElementById('navigation');
+    let hamburger = document.getElementById('hamburger');
+    let navigation = document.getElementById('navigation');
 
-    hamburger.addEventListener('click', () => 
-        {
-            navigationHeader.classList.toggle('invisible');
-        });
+    hamburger.addEventListener('click',() => {
+        navigation.classList.toggle('opacity-0');
+        navigation.classList.toggle('hidden');
+    });
 };
 
-navigationFlipper();
+hamburgerMenu();

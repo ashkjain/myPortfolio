@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../js/script.js" defer></script>
+    <title>Homepage</title>
+</head>
+<body>
+    <!-- Global Container -->
+    <div class="grid">
+        <header class="grid">
+            <div class="grid grid-cols-3 w-screen items-center justify-center text-center h-10">
+                <p class="col-span-2">Ashish Jain</p>
+                <button id="hamburger" class="w-10 h-8 border m-auto">&#9776;</button>
+            </div>
+            <nav id="navigation" class="flex flex-col items-center transition duration-1000">
+                <a href="" class="w-full p-2 text-center border-2 ">Home</a>
+                <a href="" class="w-full p-2 text-center border-2 ">About</a>
+                <a href="" class="w-full p-2 text-center border-2 ">Projects</a>
+                <a href="" class="w-full p-2 text-center border-2 ">Contact</a>
+                <a href="" class="w-full p-2 text-center border-2 ">Blogs</a>
+            </nav>
+        </header>
+        <main>
+            <div id="imageContainer" class="grid items-center justify-center my-4">
+                <img src="../assets/image-ashish.jpg" alt="" class="w-48 h-48 object-cover object-top rounded-full" style="object-position: center 25%;">
+            </div>
+            <div id="nameInfo" class="grid items-center justify-center text-center my-4">
+                <h1 class="text-3xl">Hi! I'm Ashish Jain</h1>
+                <p class="mt-2 px-2">Welcome to my personal site! I'm passionate about backend development and enjoy sharing knowledge to help others in the tech community. When I'm not programming, I love exploring new technologies and finding innovative solutions to complex problems.</p>
+            </div>
+            <div class="grid items-center justify-center text-center my-4">
+                <h2 class="text-2xl">My Skills</h2>
+                <p class="">Technology that I am familiar with and learning</p>
+                <ul class="grid grid-cols-2 w-screen gap-2 sm:grid-cols-2 md:grid-cols-3">
+                    <li class="border-2 w-32 h-32 m-auto grid items-center mt-2 rounded-full">Python</li>
+                    <li class="border-2 w-32 h-32 m-auto grid items-center mt-2 rounded-full">JavaScript</li>
+                    <li class="border-2 w-32 h-32 m-auto grid items-center mt-2 rounded-full">SQL</li>
+                    <li class="border-2 w-32 h-32 m-auto grid items-center mt-2 rounded-full">C#</li>
+                    <li class="border-2 w-32 h-32 m-auto grid items-center mt-2 rounded-full">Java</li>
+                    <li class="border-2 w-32 h-32 m-auto grid items-center mt-2 rounded-full">HTML/CSS</li>
+                    <li class="border-2 w-32 h-32 m-auto grid items-center mt-2 rounded-full">Tailwindcss</li>
+                    <li class="border-2 w-32 h-32 m-auto grid items-center mt-2 rounded-full">Flask</li>
+                    <li class="border-2 w-32 h-32 m-auto grid items-center mt-2 rounded-full">MySQL</li>
+                </ul>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
