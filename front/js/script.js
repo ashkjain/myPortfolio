@@ -9,4 +9,8 @@ function hamburgerMenu()
     });
 };
 
+let currentYear = new Date().getFullYear();
+let year = document.getElementById('year');
+year.innerHTML = currentYear;
+
 hamburgerMenu();
