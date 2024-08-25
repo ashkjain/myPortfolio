@@ -13,11 +13,11 @@
     <!-- Global Container -->
     <div class="grid">
         <header class="grid sticky top-0 z-10">
-            <div class="grid grid-cols-3 w-screen items-center justify-center text-center h-10 border bg-gradient-to-r from-slate-700 to-slate-800 text-white md:hidden">
+            <div class="grid grid-cols-3 w-screen items-center justify-center text-center h-10 border bg-gradient-to-r from-slate-700 to-slate-800 text-white sm:hidden">
                 <p class="col-span-2 text-2xl">Ashish Jain</p>
                 <button id="hamburger" class="w-10 h-8 border m-auto border-white rounded bg-black">&#9776;</button>
             </div>
-            <nav id="navigation" class="flex flex-col items-center transition duration-1000">
+            <nav id="navigation" class="flex flex-col items-center transition duration-1000 sm:flex-row">
                 <a href="" class="w-full p-2 text-center border border-white text-white bg-gradient-to-r from-slate-700 to-slate-800 hover:opacity-80 transition-opacity duration-500 hover:bg-blue-300">Home</a>
                 <a href="" class="w-full p-2 text-center border border-white text-white bg-gradient-to-r from-slate-700 to-slate-800 hover:opacity-80 transition-opacity duration-500 hover:bg-blue-300">About</a>
                 <a href="#projectContainer" class="w-full p-2 text-center border border-white text-white bg-gradient-to-r from-slate-700 to-slate-800 hover:opacity-80 transition-opacity duration-500 hover:bg-blue-300">Projects</a>
@@ -31,14 +31,14 @@
                     style="object-position: center 25%;">
             </div>
             <div id="nameInfoContainer" class="grid items-center justify-center text-center my-4">
-                <h1 class="text-3xl">Hi! I'm Ashish Jain</h1>
-                <p class="mt-2 px-2 leading-loose">Welcome to my personal site! I'm passionate about backend development
+                <h1 class="text-4xl sm:text-5xl">Hi! I'm <span class="text-red-400">Ashish Jain</span></h1>
+                <p class="mt-2 px-2 leading-loose sm:text-xl sm:px-8 sm:leading-8">Welcome to my personal site! I'm passionate about backend development
                     and enjoy sharing knowledge to help others in the tech community. When I'm not programming, I love
                     exploring new technologies and finding innovative solutions to complex problems.</p>
             </div>
             <div id="skillsContainer" class="grid items-center justify-center text-center my-4">
-                <h2 class="text-2xl">My Skills</h2>
-                <p class="">Technology that I am familiar with and learning</p>
+                <h2 class="text-2xl sm:text-4xl">My Skills</h2>
+                <p class="sm:text-xl my-2">Technology that I am familiar with and learning</p>
                 <ul class="grid grid-cols-2 w-screen gap-2 sm:grid-cols-2 md:grid-cols-3">
                     <li
                         class="border-2 w-32 h-32 m-auto grid items-center mt-2 rounded-full transition-transform duration-500 ease-in-out text-white bg-gradient-to-r from-slate-700 to-slate-500 shadow-xl hover:bg-gradient-to-r hover:from-green-700 hover:to-green-300 hover:scale-110">
@@ -70,10 +70,11 @@
                 </ul>
             </div>
             <div id="infoContainer" class="grid items-center justify-center text-center my-4">
-                <h3 class="text-2xl">So, who am I?</h3>
-                <p class="text-left px-6 leading-loose">Hello! I'm Ashish Jain, a passionate Web Backend Developer
+                <h3 class="text-2xl sm:text-4xl">So, who am I?</h3>
+                <p class="text-left px-6 leading-loose sm:text-xl sm:px-8 sm:leading-10">Hello! <span class="text-red-400">I'm Ashish Jain</span>, a passionate Web Backend Developer
                     originally from New Delhi, India. Currently, I am pursuing a Bachelor's degree in Computer Science
-                    at Brigham Young University - Idaho in Rexburg, Idaho. <br>
+                    at Brigham Young University - Idaho in Rexburg, Idaho. 
+                    <br>
                     My main focus is on backend development, where I continuously learn and refine my skills. I have a
                     good grasp of several programming languages and technologies, including JavaScript, Python, MySQL,
                     C#, CSS, HTML, and Flask. I'm also a certified Python Entry Level Developer (PCEP-30-02). <br>
@@ -92,7 +93,7 @@
                     <p class="text-center">These are the projects that I am working on and I worked on</p>
                     <div
                         class="grid grid-cols-1 items-center justify-center align-middle m-auto md:grid-cols-2 lg:grid-cols-3">
-                        <div class="my-2 w-96 mx-4 border-8 rounded-xl border-slate-500 md:w-80">
+                        <div class="my-2 w-80 mx-4 border-8 rounded-xl border-slate-500 md:w-80">
                             <img src="" alt="" class="border w-36 h-36 m-auto mt-2 rounded-full">
                             <p class="text-xl my-2">Project Heading</p>
                             <p class="px-2 py-2 bg-slate-200">Project Description Lorem ipsum dolor sit amet,
@@ -102,7 +103,7 @@
                                 class="block my-2 border w-max m-auto py-1 px-2 text-white bg-blue-500 rounded hover:bg-green-500 transform duration-500">Take
                                 Me There</a>
                         </div>
-                        <div class="my-2 w-96 mx-4 border-8 rounded-xl border-slate-500 md:w-80">
+                        <div class="my-2 w-80 mx-4 border-8 rounded-xl border-slate-500 md:w-80">
                             <img src="" alt="" class="border w-36 h-36 m-auto mt-2 rounded-full">
                             <p class="text-xl my-2">Project Heading</p>
                             <p class="px-2 py-2 bg-slate-200">Project Description Lorem ipsum dolor sit amet,
@@ -112,7 +113,7 @@
                                 class="block my-2 border w-max m-auto py-1 px-2 text-white bg-blue-500 rounded hover:bg-green-500 transform duration-500">Take
                                 Me There</a>
                         </div>
-                        <div class="my-2 border-2 w-96 mx-4 border-8 rounded-xl border-slate-500 md:w-80">
+                        <div class="my-2 border-2 w-80 mx-4 border-8 rounded-xl border-slate-500 md:w-80">
                             <img src="" alt="" class="border w-36 h-36 m-auto mt-2 rounded-full">
                             <p class="text-xl my-2">Project Heading</p>
                             <p class="px-2 py-2 bg-slate-200">Project Description Lorem ipsum dolor sit amet,
@@ -132,9 +133,9 @@
                     <p class="text-white text-center text-xl">Follow Me On</p>
                 </div>
                 <div class="flex space-x-4 items-center justify-center md:space-x-6">
-                    <a href=""><img class="w-12 border rounded-full bg-white" src="../assets/social/linkedin.png" alt=""></a>
-                    <a href=""><img class="w-12 border rounded-full bg-white" src="../assets/social/github.png" alt=""></a>
-                    <a href=""><img class="w-12 border rounded-full bg-white" src="../assets/social/twitter.png" alt=""></a>
+                    <a href="" target="_blank"><img class="w-12 border rounded-full bg-white hover:animate-pulse active:animate-ping" src="../assets/social/linkedin.png" alt=""></a>
+                    <a href=""><img class="w-12 border rounded-full bg-white hover:animate-pulse active:animate-ping" src="../assets/social/github.png" alt=""></a>
+                    <a href=""><img class="w-12 border rounded-full bg-white hover:animate-pulse active:animate-ping" src="../assets/social/twitter.png" alt=""></a>
                 </div>
             </div>
             <div id="copyrightContainer" class="text-center my-4">
